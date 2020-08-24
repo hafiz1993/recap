@@ -30,7 +30,8 @@ function App() {
             email ={user.email}
             age = {user.dob.age}
             phone ={user.phone}
-            info = {user.id.name}
+            id1 = {user.id.name}
+            id2 = {user.id.value}
             
             >
               
@@ -87,10 +88,8 @@ function Users(props){
         <p>Email: {props.email}</p>
         <p>Age: {props.age}</p>
         <p>Phone: {props.phone}</p>
-  <p>Information: {props.info}</p>
+        <p> Id: {props.id1} - {props.id2}</p>
         
-        
-    
     
   
     </div>
